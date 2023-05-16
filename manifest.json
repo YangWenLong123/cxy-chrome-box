@@ -1,0 +1,20 @@
+{
+  "name": "程序员盒子",
+  "description": "一个插件，提供一揽子资源",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "img/icon16.png",
+    "32": "img/icon32.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "img/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"]
+}
